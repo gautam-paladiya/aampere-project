@@ -1,0 +1,17 @@
+{
+  "name": "aampere-project",
+  "version": "1.0.0",
+  "description": "Aampere interview task",
+  "main": "index.js",
+  "author": "Gautam Paladiya",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "apps/*"
+    ],
+    "nohoist": [
+      "apps/*/**"
+    ]
+  }
+}

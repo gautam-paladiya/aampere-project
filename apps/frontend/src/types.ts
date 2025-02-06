@@ -1,0 +1,20 @@
+export type Vehicle = {
+  id: string;
+  brand: string;
+  model: string;
+  year: number;
+  price: number;
+  rangeKm: number;
+  color: string;
+  condition: string;
+  batteryCapacityKWh: number;
+  chargingSpeedKW: number;
+  seats: number;
+  drivetrain: string;
+  location: string;
+  autopilot: boolean;
+  kilometerCount: number;
+  accidents: boolean;
+  accidentsDescription: string;
+  images: string[];
+};
