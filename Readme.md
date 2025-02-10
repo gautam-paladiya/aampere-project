@@ -53,6 +53,13 @@ docker exec -i postgres_db psql -U aampere -d aampere < db/db_backup.sql
 
 ---
 
+## 🌍 **Accessing the Application**  
+
+- **Frontend (Next.js) runs on:** [`http://localhost:3000`](http://localhost:3000)  
+- **Backend Swagger API documentation is available at:** [`http://localhost:4000/docs`](http://localhost:4000/docs)  
+
+---
+
 ## 🧪 **Testing**  
 
 ### **Postman Collection**  
@@ -89,18 +96,3 @@ yarn test:e2e
    ```
 
 ---
-
-## 🏆 **Why Use This Project?**  
-✅ **Minimal & Clean Code**  
-✅ **Easy to Customize**  
-✅ **Best Practices & Industry Standards**  
-✅ **Ready for Production**  
-
----
-
-## 🚀 **Contributing**  
-We welcome contributions! Feel free to open an issue or submit a pull request.  
-
----
-
-This README provides a **clear structure** while keeping it **concise and useful**. Let me know if you need modifications! 🚀
